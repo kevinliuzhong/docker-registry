@@ -71,7 +71,7 @@ common: &common
 local: &local
     <<: *common
     storage: local
-    storage_path: _env:STORAGE_PATH:/tmp/registry
+    storage_path: _env:STORAGE_PATH:/docker-registry
 
 
 s3: &s3
